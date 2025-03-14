@@ -1,10 +1,11 @@
-
 /* GENERAL */
 body {
     font-family:'Times New Roman', Times, serif;
     overflow-x: hidden;
     width: 100%;
-    
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
@@ -15,7 +16,10 @@ img {
     opacity: 0.1;
 }
 section {
-    padding: 65px 0 80px 0;
+    padding: 65px 0 80px 0; /* check */
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 section .heading {
 text-align: center;
@@ -311,6 +315,7 @@ margin-right: 10px;
 }
 
 /* PORTFOLIO */
+
 #portfolio {
     background-color:rgb(0, 0, 0, 0.93);
 }
@@ -347,8 +352,53 @@ margin-right: 10px;
 }
 #portfolio .forest {
     margin-left: 15px;
+} 
+
+/* Styles pour la section portfolio avec Flexbox */
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+.portfolio-category {
+  width: 100%;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.portfolio-item {
+  flex: 0 1 300px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-item {
+    flex: 0 1 100%;
+  }
+}
 
 /* FOOTER */ 
 footer {
@@ -359,5 +409,10 @@ footer {
 footer h5 {
     color:rgb(0, 0, 0, 0.93);
     font-weight: normal;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
