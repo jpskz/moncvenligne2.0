@@ -1,0 +1,355 @@
+<php
+// Inclure le script de traitement
+include 'traitement_contact.php';
+>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mon CV</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="icon" type="image/jpg" href="images/1686575019blobid0.jpg">
+</head>
+
+<body>
+
+<nav>
+  <ul class="liste-nav">
+    <li class="item-nav">
+      <a href="#moi">Moi</a>
+    </li>
+    <li class="item-nav">
+      <a href="#languages">Compétences linguistiques</a>
+    </li>
+    <li class="item-nav">
+      <a href="#skills">Compétences en développement Web</a>
+    </li>
+    <li class="item-nav">
+      <a href="#experience">Expérience</a>
+    </li>
+    <li class="item-nav">
+      <a href="#education">Mes études</a>
+    </li>
+    <li class="item-nav">
+      <a href="#portfolio">Portfolio</a>
+    </li>
+    <li class="item-nav">
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+  <div class="logo-menu">
+    <div class="cont-lignes btn1">
+      <div class="lignes"></div>
+      <div class="lignes"></div>
+      <div class="lignes"></div>
+    </div>
+  </div>
+</nav>
+
+<section id="about" class="container-fluid">
+<div class="col-8 col-lg-4 profile-picture">
+    <img src="images/1686575019blobid0.jpg">  
+</div>  
+<div class="heading">
+    <h1> <strong>Jean-Paul<br> Solkiewicz</strong> </h1>
+<h3>Bienvenue sur mon CV en ligne</h3>
+<a href="images/CV01.pdf" class="button1">Téléchargez mon CV ici</a> 
+<a href="images/Lettre de Motivation Professionnel Simple Minimaliste Blanc et Noir.jpg" class="button1">Téléchargez ma LM ici</a> 
+</div>
+
+</section>
+<section id="moi">
+  <div class="heading">
+  <h2>A propos de moi</h2>
+  <div class="divider"></div>
+  
+    
+  <h4>
+
+   <p> Ma passion pour le codage est apparue lors d'un travail universitaire, que je devais rendre en temps et en heure avec mon groupe. Je devais en effet coder avec LaTeX, un travail à thème...</p>   
+   
+  </h4>
+  </div>
+</section>
+
+
+<section id="languages">
+    <div class="divider"></div>
+    <div class="heading">
+      <h2>Compétences linguistiques</h2>  
+    </div>
+        
+          <div>
+            
+            <div class="progress-container">
+              <div class="language-label">Français 100%</div>
+              <div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 100%"></div>
+              </div>
+          </div>
+            
+          <div class="progress-container">
+              <div class="language-label">Polonais 90%</div>
+              <div class="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 90%"></div>
+              </div>
+          </div>
+            
+          <div class="progress-container">
+              <div class="language-label">Anglais 50%</div>
+              <div class="progress" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 50%"></div>
+              </div>
+          </div>
+            
+          <div class="progress-container">
+              <div class="language-label">Tchèque 30%</div>
+              <div class="progress" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 30%"></div>
+              </div>
+          </div>
+
+            <div class="progress-container">
+              <div class="language-label">Néerlandais 15%</div>
+              <div class="progress" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 15%"></div>
+              </div>
+          </div>
+          
+          <div class="progress-container">
+              <div class="language-label">Russe 10%</div>
+              <div class="progress" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar" style="width: 10%"></div>
+              </div>
+          </div>
+          
+          </div>
+    
+            
+    
+</section>
+
+<section id="skills">
+  <div class="divider"></div>
+  <div class="heading">
+    <h2>Compétences en développpement Web</h2>
+  </div>
+  
+      <div class="row">
+      <div>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 60%">HTML 60%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 60%">CSS 60%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Primary example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-primary" style="width: 50%">BOOTSTRAP 50%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 35%">JAVASCRIPT 35%</div>
+        </div>
+      </div>
+      </div>
+  
+
+  </section>
+
+  <section id="experience">
+    <div class="divider"></div>
+    <div class="heading">
+      <h2>Expérience</h2>
+    </div>
+    <ul class="timeline">
+      <li>
+        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+        <div class="timeline-panel-container">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3>Capra Solutions</h3>
+              <h4>Stage en tant que développeur junior</h4>
+              <p class="text-muted"><span class="bi-clock-fill"></span> Février 2025 - Mai 2025</p>
+            </div>
+            <div class="timeline-body">
+              <p>Création de plusieurs sites vitrines et sites e-commerce.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+        <div class="timeline-panel-container-inverted">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3>EFP</h3>
+              <h4>Développement freelance</h4>
+              <p class="text-muted"><span class="bi-clock-fill"></span> Février 2025</p>
+            </div>
+            <div class="timeline-body">
+              <p>Création d'un site Web lors d'un Hackathon. Site Web créé avec d'autres développeurs et designers.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+ <section id="education">
+  <div class="divider"></div>
+  <div class="heading">
+    <h2>Mes études</h2>
+  </div>
+
+ 
+    <div class="col-md-6"></div>
+      <div class="education-block">
+          <h4>2024</h4>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+            <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+          </svg>
+          <h2>Formation en alternance à l'EFP</h2>
+          <h3>Développement Web Full-Stack</h3>
+      </div>
+  
+  <div class="col-md-6"></div>
+  <div class="education-block">
+    <h4>2020-2024</h4>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+      <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+    </svg>
+      <h2>Université Libre de Bruxelles</h2>
+      <h3>Faculté de Lettres, Traduction et Communication</h3>
+      <div class="divider"></div>
+      <p>Orientation langues slaves</p>
+      <p>Polonais, tchèque, russe + anglais</p>
+  </div>
+
+  
+    <div class="col-md-6"></div>
+      <div class="education-block">
+          <h4>2019</h4>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+            <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
+            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+          </svg>
+          <h2>Centre scolaire Eddy Merckx - site ICMES</h2>
+          <h3>Obtention du CESS</h3>
+      </div>
+    
+  
+</section>
+
+<section id="portfolio">
+  <div class="divider"></div>
+  <div class="heading">
+    <h2>Portfolio</h2>
+  </div>
+
+  <div class="heading">
+    <h3>Projet LaTeX</h3>
+    <div class="divider"></div>
+  </div>
+
+<div class="row">
+      <div class="col-lg-4">
+        <a href="images/Project01.pdf.pdf" target="_blank">
+            <img src="images/Screenshot_20240830-010913_LinkedIn.jpg" class="img-thumbnail" alt="Projet latex">
+        </a>
+      </div>
+        
+      <div class="col-lg-4">
+        <a href="images/Main.tex + Bib.tex.pdf.pdf" target="_blank">
+          <img src="images/Screenshot_20240830-010920_LinkedIn.jpg" class="img-thumbnail" alt=" Main.tex + Bib.tex">
+      </a>
+      </div>
+
+      <div class="heading">
+        <h3>Mon linktree</h3>
+        <div class="divider"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="https://jpskz.github.io/monlinktree/" target="_blank">
+              <img src="images/tree.jpg" class="tree" alt="Mon linktree">
+          </a>
+        </div>     
+
+        <div class="heading">
+          <h3>Mes projets Front-End</h3>
+          <div class="divider"></div>
+        </div>
+  
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="https://jpskz.github.io/exemplesitenature/" target="_blank">
+                <img src="images/escape game forest.jpg" class="forest" alt="forest">
+            </a>
+          </div>     
+
+</div>
+
+</section>
+
+<section id="contact">
+  <div class="divider"></div>
+  <div class="heading">
+    <h2>Contact</h2>
+  </div>
+
+  <php
+  // Afficher les messages de succès ou d'erreur s'ils existent
+  if (isset($_GET['message_type']) && isset($_GET['message'])) {
+      $message_class = $_GET['message_type'] == 'success' ? 'alert-success' : 'alert-danger';
+      echo '<div class="alert ' . $message_class . '" role="alert">' . htmlspecialchars($_GET['message']) . '</div>';
+  }
+  >
+
+  <div class="contact-container">
+      
+    <div class="contact-form">
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Sujet" required>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Votre message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Envoyer</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h5>2024 © Tous droits réservés. <br> Développé par Jean-Paul Solkiewicz.</h5>
+</footer>
+
+ <!--Pop-up-->
+<div id="welcomeModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgb(0, 0, 0, 0.93); justify-content:center; align-items:center;">
+  <div style="background:azure; padding:20px; text-align:center; border-radius: 2%;">
+    <h2>Bienvenue sur mon CV en ligne !</h2>
+    <p>Explorez mes compétences et réalisations</p>
+    <button id="closeModal" style="background:rgb(0, 0, 0, 0.93); border-radius: 2%; color: azure;">Fermer</button>
+  </div>
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
+
